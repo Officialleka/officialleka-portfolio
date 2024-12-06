@@ -1,0 +1,18 @@
+p {
+  font-family: Montserrat;
+  text-align: center;
+}
+.model-version {
+font-size: 80px;
+
+}
+.buy-space {
+  font-size: 45px;
+}
+
+.fix-it:hover {
+ cursor: pointer;
+}
+.fix-it:active {
+  color: gold;
+}

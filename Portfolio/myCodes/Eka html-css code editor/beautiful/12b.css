@@ -1,0 +1,56 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ekanem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.eka {
+  width: 60px;
+}
+
+.akan {
+  flex: 1;
+  max-width: 500px;
+}
+
+.emma {
+  width: 100px;
+}
+
+.okon {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.sweet {
+  font-size: large;
+  font-family: arial;
+  font-weight: 600;
+}
+.little {
+ color: grey;
+ font-size: 18px;
+}
+
+.thing {
+ color: grey;
+ font-size: 18px;
+}
+
+button {
+  background-color: rgb(10, 122, 228);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 5px;
+}

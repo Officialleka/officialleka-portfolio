@@ -1,0 +1,44 @@
+.subject-text {
+  margin-top: 0;
+  font-family: Arial;
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: rgb(53, 52, 52);
+   }
+   .search-bar {
+    width: 295px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    height: 23px;
+    border-color: rgb(85, 83, 83);
+
+   }
+   .Agreement-statement {
+     font-family: Arial;
+     font-size: 12px;
+     width: 305px;
+     font-weight: normal;
+     color: grey;
+
+   }
+   .Agree-button {
+     font-family: Arial;
+     font-size: 12px;
+     color: white;
+     background-color: rgb(7, 89, 143);
+     width: 290px;
+     border-radius: 75px;
+     border: none;
+     
+     padding-top: 12px;
+     padding-bottom: 12px;
+     padding-right: 20px;
+     padding-right: 20px;
+   }
+   .that-me {
+     font-family: arial;
+     font-size: 15px;
+     color: antiquewhite;
+   }

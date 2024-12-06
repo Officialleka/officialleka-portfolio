@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio
+  </title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Ekanem Emmanuel</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Ekanem Emmanuel</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="ToggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="ToggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="ToggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="ToggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="ToggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+<section id="profile">
+<div class="section--pic-container">
+  <img src="asset/my-photo.jpg" alt="Ekanem Emmanuel profile picture"
+  class="profile-picture">
+</div>
+<div class="section--text">
+  <p class="section--text-p1">Meet</p>
+  <h1 class="title">Ekanem Emmanuel</h1>
+  <p class="section--text-p2">Frontend Developer</p>
+  <div class="btn-container">
+    <button class="btn-btn-color2" onclick="window.open('asset/Ekanem-Emmanuel-CV.pdf')">Download CV</button>
+
+    <button class="btn-btn-color1" onclick="location.href = '#contact' ">Contact Info</button>
+  </div>
+
+  <div id="socials-container">
+    <a href="https://github.com/Officialleka" target="_blank">
+      <img src="asset/github.png" alt="my Github profile" class="icon" >
+    </a>
+    <a href="https://linkedin.com/in/emmanuel-okon-648085325" target="_blank"><img src="asset/linkedin.png" alt="my linkedin profile" class="icon" ></a>
+  </div>
+</div>
+  </section>
+
+  <section id="about">
+    <p class="section--text-p1">Get to know more</p>
+    <h1 class="title">About Me</h1>
+    <div class="about-section-container">
+      <div class="about-section--pic-container">
+        <img src="asset/code.png" alt="profile-picture" class="about-pic">
+      </div>
+
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="asset/experience.png" alt="experience-icon" class="icon">
+            <h3>Experience</h3>
+            <p>2+ years  <br> Frontend Development</p>
+          </div>
+          <div class="details-container">
+            <img src="asset/education.png" alt="education-icon" class="icon">
+            <h3>Education</h3>
+            <p>B.Sc Biochemistry</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>Result-oriented Front-End devloper with over 2 years experience in front-end development, where I've worked extensively with HTML, CSS, JavaScript, and frameworks like React and Tailwind CSS. I've built responsive, mobile-friendly applications and collaborated closely with designers to deliver user-centric interfaces. I have developed websites for many small and medium enterprises, whilst optimising page loading times, improving user experience and speed by implementing SEO practices, working with various debugging tools, monitoring key metrices such as user-retention and also resolving issues. Also a certified and experienced product manager, I bridged the gap between development teams, offering excellent ideas and innovation as regards product development cycle and lifecycle. I believe that webpages are a great indication of your authenticity and values as a brand or organization and therefore must be built to serve the needs of your users/customers
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="asset/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href = '#experience'">
+  </section>
+
+  <section id="experience">
+    <p class="section--text-p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article> 
+              <div class="experience-box">
+                <div>
+                  <img src="asset/html.png" alt="" class="large-icons">
+                </div>
+                <div>
+                  <h2>HTML</h2>
+                  <h3>EXPERIENCED</h3>
+                </div>
+              </div>
+             
+            </article>
+            <article>
+              <div class="experience-box">
+                <div>
+                  <img src="asset/css-3.png" alt="" class="large-icons">
+                </div>
+                <div>
+                  <h2>CSS</h2>
+                  <h3>EXPERIENCED</h3>
+                </div>
+              </div>
+             
+            </article>
+            <article>
+              <div class="experience-box">
+                <div>
+                  <img src="asset/sass.png" alt="" class="large-icons">
+                </div>
+                <div>
+                  <h2>SASS</h2>
+                  <h3>EXPERIENCED</h3>
+                </div>
+              </div>
+             
+            </article>
+            <article>
+              <div class="experience-box">
+                <div>
+                  <img src="asset/js.png" alt="" class="large-icons">
+                </div>
+                <div>
+                  <h2>JAVASCRIPT</h2>
+                  <h3>EXPERIENCED</h3>
+                </div>
+              </div>
+             
+            </article>
+            <article>
+              <div class="experience-box">
+                <div>
+                  <img src="asset/science.png" alt="" class="large-icons">
+                </div>
+                <div>
+                  <h2>REACT</h2>
+                  <h3>EXPERIENCED</h3>
+                </div>
+              </div>
+             
+            </article>
+            <article>
+              <div class="experience-box">
+                <div>
+                  <img src="asset/stamp.png" alt="" class="large-icons">
+                </div>
+                <div>
+                  <h2>PRODUCT MANAGEMENT</h2>
+                  <h3>CERTIFIED</h3>
+                </div>
+              </div>
+             
+            </article>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+   
+      <img src="asset/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href = '#projects'">
+   
+    
+  </section>
+
+  <section id="projects">
+    <p class="section--text-p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="project-img-container">
+            <img src="asset/social.png" alt="project-1" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Fully responsive e-commerce website(amazon clone)</h2>
+          <div class="button-container">
+            <button class="btn-btn-color2 project-btn"
+            onclick="location.href = '#profile'">
+              Github
+            </button>
+              <a href="e-Commerce website/javascript-amazon-project/amazon.html">
+                <button class="btn-btn-color2 project-btn">
+                  Live Demo
+                </button>
+              </a>
+            
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="project-img-container">
+            <img src="asset/scissor.png" alt="project-2" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Rock Paper Scissors Fun Game</h2>
+          <div class="button-container">
+            <button class="btn-btn-color2 project-btn"
+            onclick="location.href = '#profile'">
+              Github
+            </button>
+            <a href="RockpaperScissors/RPS.html">
+              <button class="btn-btn-color2 project-btn">
+                Live Demo
+              </button>
+            </a>
+            
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="project-img-container">
+            <img src="asset/streaming.png" alt="project-3" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Youtube Static Page</h2>
+          <div class="button-container">
+            <button class="btn-btn-color2 project-btn"
+            onclick="location.href = '#profile'">
+              Github
+            </button>
+
+            <a href="myCodes/Eka html-css code editor/youtube.html">
+              <button class="btn-btn-color2 project-btn">
+                Live Demo
+              </button>
+            </a>
+           
+          </div>
+        </div>
+      </div>
+      </div>
+        <img src="asset/arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href = '#Contact'">
+  </section>
+
+  <section id="contact">
+    <p class="section--text-p1">
+      Get In Touch
+    </p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <a href="mailto:okonemmanuel916@gmail.com">
+          <img src="asset/email2.png" alt="email-icon" class="contact-icon">
+        </a>
+      </div>
+      <div class="contact-info-container">
+        <a href="https://web.facebook.com/emmanuel.okon.39904">
+          <img src="asset/facebook.png" alt="linkedin-icon" class="contact-icon">
+        </a>
+      </div>
+      <div class="contact-info-container">
+        <a href="https://x.com/ekanem_eo">
+          <img src="asset/twitter.png" alt="linkedin-icon" class="contact-icon">
+        </a>
+      </div>
+      <div class="contact-info-container">
+        <a href="https://www.instagram.com/official_ekanememmanuel/">
+          <img src="asset/instagram.png" alt="linkedin-icon" class="contact-icon">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Ekanem Emmanuel. All Rights Reserved </p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
